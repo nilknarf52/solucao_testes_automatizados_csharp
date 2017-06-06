@@ -1,4 +1,4 @@
-## Exemplo de Framework de Testes Automatizados
+## Exemplo de Framework de Testes Automatizados de UI
 
 Utilizando Selenium Webdriver, C#, NUnit e ExtentReport.
 
