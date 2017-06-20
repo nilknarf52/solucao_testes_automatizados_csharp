@@ -1,19 +1,19 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
 
 namespace Selenium
 {
     [TestFixture]
     public class TestClass
     {
-        static IWebDriver _driver;
+        private IWebDriver _driver;
 
         [OneTimeSetUp]
         public void SetUp()
         {
-            _driver = new ChromeDriver();
-            _driver.Url = "https://paulofachini.github.io/";
+            BrowserFactory.StartDriver("Chrome");
+            BrowserFactory.OpenUrl("https://paulofachini.github.io/");
+            _driver = BrowserFactory.Driver;
         }
 
         [Test]
@@ -27,8 +27,7 @@ namespace Selenium
         [OneTimeTearDown]
         public void TearDown()
         {
-            _driver.Close();
-            _driver.Quit();
+            BrowserFactory.CloseDriver();
         }
     }
 }
