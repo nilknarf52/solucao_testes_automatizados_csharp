@@ -1,6 +1,6 @@
 ## Exemplo de Framework de Testes Automatizados de UI
 
-Utilizando Selenium Webdriver, C#, NUnit e ExtentReport.
+Utilizando Selenium Webdriver, C#, Dapper, NUnit e ExtentReport.
 
 ## Ferramentas utilizadas
 
