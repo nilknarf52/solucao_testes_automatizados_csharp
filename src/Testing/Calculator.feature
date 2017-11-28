@@ -8,3 +8,10 @@ Scenario: Add two numbers
 	And I have also entered 70 into the calculator
 	When I press add
 	Then the result should be 120 on the screen
+
+
+Scenario: Subtract two numbers
+	Given I have entered 120 into the calculator
+	And I have also entered 70 into the calculator
+	When I press subtract
+	Then the result should be 50 on the screen

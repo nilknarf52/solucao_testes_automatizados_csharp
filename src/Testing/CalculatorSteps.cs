@@ -28,6 +28,12 @@ namespace Selenium
             result = calculator.Add();
         }
 
+        [When(@"I press subtract")]
+        public void WhenIPressSubtract()
+        {
+            result = calculator.Subtract();
+        }
+
         [Then(@"the result should be (.*) on the screen")]
         public void ThenTheResultShouldBeOnTheScreen(int expectedResult)
         {
@@ -35,3 +41,6 @@ namespace Selenium
         }
     }
 }
+
+
+
