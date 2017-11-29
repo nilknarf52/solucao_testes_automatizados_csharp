@@ -1,7 +1,7 @@
 ﻿//using NUnit.Framework;
 //using OpenQA.Selenium;
 
-//namespace Selenium
+//namespace Testing
 //{
 //    [TestFixture]
 //    public class TestClass

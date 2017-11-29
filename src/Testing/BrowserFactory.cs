@@ -5,7 +5,7 @@ using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Chrome;
 
 
-namespace Selenium
+namespace Testing
 {
     public static class BrowserFactory
     {

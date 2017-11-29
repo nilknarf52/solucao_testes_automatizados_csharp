@@ -73,6 +73,12 @@
       <DependentUpon>Calculator.feature</DependentUpon>
     </Compile>
     <Compile Include="CalculatorSteps.cs" />
+    <Compile Include="ToolsQA\LogIn_Feature.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LogIn_Feature.feature</DependentUpon>
+    </Compile>
+    <Compile Include="ToolsQA\LogIn_Steps.cs" />
     <Compile Include="TestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -81,6 +87,10 @@
     <None Include="Calculator.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Calculator.feature.cs</LastGenOutput>
+    </None>
+    <None Include="ToolsQA\LogIn_Feature.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>LogIn_Feature.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config">
       <SubType>Designer</SubType>
